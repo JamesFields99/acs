@@ -6,6 +6,14 @@ gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 
 gem 'sqlite3', group: [:development, :test]
+
+# use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.6'
+
+# ues bootstrap for photo gallery. thanks kritianmandrup/rails-gallery@gethub
+gem 'rails-gallery'
+
+
 # use postgresql as the database for production
 group :production do
   gem 'pg'
