@@ -7,9 +7,18 @@ gem 'rails', '4.2.3'
 
 gem 'sqlite3', group: [:development, :test]
 
+<<<<<<< HEAD
 # use bootstrap library for styles 
 gem 'bootstrap-sass', '3.3.6'
 
+=======
+# use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.6'
+
+# ues bootstrap for photo gallery. thanks kritianmandrup/rails-gallery@gethub
+gem 'rails-gallery'
+
+>>>>>>> site_pages
 
 # use postgresql as the database for production
 group :production do
