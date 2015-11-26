@@ -10,6 +10,9 @@ gem 'sqlite3', group: [:development, :test]
 # use bootstrap library for styles
 gem 'bootstrap-sass', '3.3.6'
 
+gem 'font-awesome-sass', '4.4.0'
+# Use font awesome library for icons
+
 # ues bootstrap for photo gallery. thanks kritianmandrup/rails-gallery@gethub
 gem 'rails-gallery'
 
