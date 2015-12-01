@@ -16,6 +16,9 @@ gem 'font-awesome-sass', '4.4.0'
 # ues bootstrap for photo gallery. thanks kritianmandrup/rails-gallery@gethub
 gem 'rails-gallery'
 
+# dogwood008 github
+gem 'Bootstrap-Image-Gallery-rails'
+
 
 # use postgresql as the database for production
 group :production do
@@ -26,15 +29,25 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
+
+gem 'node', '0.0.2'
+
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Used for css
+#gem 'normalize', '0.0.3'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+# Turbolinks makes following links in your web application faster. Read more: http
+
+# Used gem for transitions
+#gem 'transitions', '0.2.1'
+
 #gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
@@ -55,6 +68,8 @@ gem 'figaro','1.1.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
